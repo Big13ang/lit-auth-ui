@@ -1,0 +1,32 @@
+:root {
+  --font-family: inherit;
+  --disabled-color: #a19f9d;
+  --disabled-background: #dfdfdf;
+  --loading-spinner-color: #3cb7a8;
+  --color-form-title: #000;
+  --input-text-color: #000;
+  --input-focus-color: #575757;
+  --input-border-color: #b3b3c6;
+  --input-error-message-color: #e81111;
+  --btn-get-otp-background: #358980;
+  --btn-get-otp-color: #fff;
+  --login-with-pod-btn-color: #000;
+  --login-with-pod-btn-background: transparent;
+  --login-with-pod-border-color: #3cb7a8;
+}
+
+/* [data-theme="dark"] {} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Vazirmatn";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

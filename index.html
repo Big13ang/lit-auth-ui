@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + Lit + TS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/index.css" />
+  <script type="module" src="/src/components/legal/login/legal-login-form.ts"></script>
+  <script type="module" src="/src/components/otp/otp-form/otp-form.ts"></script>
+</head>
+
+<body>
+  <div class="container">
+    <legal-login-form class="test"></legal-login-form>
+  </div>
+
+  <script>
+    document.querySelector(".test").addEventListener("legalUserLoggedIn", () => {
+      console.log("legalUserLoggedIn Run !");
+    });
+  </script>
+</body>
+
+</html>
