@@ -1,11 +1,11 @@
 import { CSSResultGroup, LitElement, html, nothing } from "lit";
 import { customElement, property, query, state } from "lit/decorators.js";
-import { baseStyle } from "../../common/base";
+import { baseStyle } from "@shared/ui";
+import { FormValidator } from "@shared/utils";
 import { loginOtpFormStyle } from "./otp-form.styles";
 import { FormStateType } from "./otp-form.types";
 import "../count down/count-down";
 import { OTPFormValidationDTO } from "./otp-form.dto";
-import { FormValidator } from "../../../utils/formValidator";
 
 @customElement("otp-form")
 class OtpForm extends LitElement {

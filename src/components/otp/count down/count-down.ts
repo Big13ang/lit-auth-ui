@@ -1,6 +1,6 @@
 import { CSSResultGroup, html, LitElement, PropertyValues } from "lit";
 import { customElement, property, state } from "lit/decorators.js";
-import { baseStyle } from "../../common/base";
+import { baseStyle } from "@shared/ui";
 import { countdownStyles } from "./count-down.styles";
 
 const oneSecond = 1000;

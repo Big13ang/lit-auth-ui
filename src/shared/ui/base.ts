@@ -44,6 +44,7 @@ export const baseStyle = css`
   input {
     outline: none;
   }
+
   #root,
   #__next {
     isolation: isolate;

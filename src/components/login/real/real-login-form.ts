@@ -1,12 +1,12 @@
 import { LitElement, html, CSSResultGroup, nothing } from "lit";
 import { customElement, property, query, state } from "lit/decorators.js";
 
-import { baseStyle } from "../../common/base";
-import { PodIcon } from "../../../assets/icons/pod.icon";
+import { baseStyle } from "@shared/ui";
+import { PodIcon } from "@assets/icons";
+import { FormValidator } from "@shared/utils";
 import { RealLoginValidationDTO } from "./real-login.dto";
 import { realLoginFormCss } from "./real-login-form.styles";
 import { FormStateType } from "./real-login-form.types";
-import { FormValidator } from "../../../utils/formValidator";
 
 @customElement("real-login-form")
 class RealLoginForm extends LitElement {
