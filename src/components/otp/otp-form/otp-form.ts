@@ -1,6 +1,6 @@
 import { CSSResultGroup, LitElement, html, nothing } from "lit";
 import { customElement, property, query, state } from "lit/decorators.js";
-import { baseStyle } from "../../base";
+import { baseStyle } from "../../common/base";
 import { loginOtpFormStyle } from "./otp-form.styles";
 import { FormStateType } from "./otp-form.types";
 import "../count down/count-down";

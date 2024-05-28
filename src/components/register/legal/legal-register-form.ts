@@ -1,10 +1,9 @@
 import { LitElement, html, CSSResultGroup, nothing } from "lit";
 import { customElement, property, query, state } from "lit/decorators.js";
 
-import { baseStyle } from "../../base";
+import { baseStyle } from "../../common/base";
 import { legalRegisterFormCss } from "./legal-register.styles";
 import { FormStateType } from "./legal-register.types";
-import { Validation } from "../../../utils/validation.util";
 import { LegalRegisterFormDTO } from "./legal-register-form.dto";
 import { FormValidator } from "../../../utils/formValidator";
 

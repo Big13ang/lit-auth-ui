@@ -1,9 +1,8 @@
 import { LitElement, html, CSSResultGroup, nothing } from "lit";
 import { customElement, property, query, state } from "lit/decorators.js";
 
-import { baseStyle } from "../../base";
+import { baseStyle } from "../../common/base";
 import { PodIcon } from "../../../assets/icons/pod.icon";
-import { Validation } from "../../../utils/validation.util";
 import { RealLoginValidationDTO } from "./real-login.dto";
 import { realLoginFormCss } from "./real-login-form.styles";
 import { FormStateType } from "./real-login-form.types";

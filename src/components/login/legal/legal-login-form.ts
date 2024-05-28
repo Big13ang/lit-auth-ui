@@ -1,7 +1,7 @@
 import { LitElement, html, CSSResultGroup, nothing } from "lit";
 import { customElement, property, query, state } from "lit/decorators.js";
 
-import { baseStyle } from "../../base";
+import { baseStyle } from "../../common/base";
 import { PodIcon } from "../../../assets/icons/pod.icon";
 import { realLoginFormCss } from "./legal-login-form.styles";
 import { FormStateType } from "./legal-login-form.types";
