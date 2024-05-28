@@ -86,7 +86,7 @@ class OtpForm extends LitElement {
           @change="${this.validateOtp}"
           value="${this.otp}"
         />
-        ${this.formStatus.otp
+        ${this.formState.otp
           ? html`<p class="otp-input-error">
               کد ارسالی را ${this.otpLength} رقمی را وارد نمایید
             </p>`
